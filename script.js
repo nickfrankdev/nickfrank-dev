@@ -1,9 +1,9 @@
 // ---------------------------------------------------------
 // Proof Sheet: scroll arrows
 // ---------------------------------------------------------
-const strip = document.getElementById('proofsheetStrip');
-const prevBtn = document.getElementById('proofPrev');
-const nextBtn = document.getElementById('proofNext');
+const strip = document.getElementById('oworksheetStrip');
+const prevBtn = document.getElementById('oworkPrev');
+const nextBtn = document.getElementById('oworkNext');
 
 function scrollStrip(dir) {
   if (!strip) return;
