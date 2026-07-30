@@ -24,8 +24,8 @@
 <header class="site-header">
   <a class="wordmark" href="#top">NF</a>
   <nav class="site-nav">
-    <a href="#work">Work</a>
-    <a href="#proofsheet">Proof Sheet</a>
+    <a href="#work">Featured Work</a>
+    <a href="#oworksheet">Other Work</a>
     <a href="#contact">Contact</a>
     <a href="sitefiles/resume.pdf" class="nav-resume">Resume</a>
   </nav>
@@ -39,13 +39,13 @@
     <h1>Nick Frank</h1>
     <!-- <p class="hero-sub"> This is where a heading goes when I think of one! </p> -->
     <div class="hero-links">
-      <a href="#work" class="btn btn--primary">My Work</a>
+      <a href="#work" class="btn btn--primary">Featured Work</a>
       <a href="mailto:nick@nickfrank.dev" class="btn btn--ghost">Contact Me</a>
     </div>
   </section>
 
   <section id="work" class="work">
-    <h2 class="section-label"><span class="tick">🟀</span>Selected Work</h2>
+    <h2 class="section-label"><span class="tick">🟀</span>Featured Work</h2>
 
     <!-- 01 antimetafy.gg -->
     <article class="plate">
@@ -96,15 +96,15 @@
       </div>
     </article>
 
-  <section id="proofsheet" class="proofsheet">
-    <h2 class="section-label"><span class="tick">🟀</span> Proof Sheet</h2>
-    <p class="proofsheet-sub">Click any frame to see more.</p>
+  <section id="oworksheet" class="oworksheet">
+    <h2 class="section-label"><span class="tick">🟀</span> Other Work</h2>
+    <p class="oworksheet-sub">Click any frame to see more.</p>
 
     <!--
       reminder: each .frame is one image
       set data-caption to sentence/data-img to the real file
     -->
-    <div class="proofsheet-strip" id="proofsheetStrip">
+    <div class="oworksheet-strip" id="oworksheetStrip">
       <button class="frame" data-img="images/proof-01.jpg" data-caption="Replace with a one-sentence caption.">
         <img src="images/proof-01.jpg" alt="" loading="lazy">
       </button>
@@ -121,7 +121,7 @@
         <img src="images/proof-05.jpg" alt="" loading="lazy">
       </button>
     </div>
-    <div class="proofsheet-controls">
+    <div class="oworksheet-controls">
       <button class="arrow" id="proofPrev" aria-label="Left">↞</button>
       <button class="arrow" id="proofNext" aria-label="Right">↠</button>
     </div>
