@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------
-   Tokens
+   tokens
 --------------------------------------------------------- */
 :root {
   --bg: #14181c;
@@ -7,7 +7,7 @@
   --surface-2: #232a32;
   --ink: #eef0ee;
   --muted: #8b93a1;
-  --accent: #ef8354;
+  --accent: #e5aacd;
   --accent-soft: rgba(239, 131, 84, 0.14);
   --line: rgba(238, 240, 238, 0.12);
   --font-display: 'Space Mono', ui-monospace, monospace;
@@ -48,7 +48,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* ---------------------------------------------------------
-   Header
+   header
 --------------------------------------------------------- */
 .site-header {
   position: sticky;
@@ -97,7 +97,7 @@ img { max-width: 100%; display: block; }
 .nav-resume:hover { border-color: var(--accent); color: var(--accent) !important; }
 
 /* ---------------------------------------------------------
-   Hero
+   hero
 --------------------------------------------------------- */
 .hero {
   position: relative;
@@ -162,7 +162,7 @@ img { max-width: 100%; display: block; }
 .btn--ghost:hover { border-color: var(--accent); color: var(--accent); }
 
 /* ---------------------------------------------------------
-   Section label (shared)
+   section label (shared)
 --------------------------------------------------------- */
 .section-label {
   font-family: var(--font-display);
@@ -177,7 +177,7 @@ img { max-width: 100%; display: block; }
 .tick { color: var(--accent); }
 
 /* ---------------------------------------------------------
-   Work / Plates
+   work and plates
 --------------------------------------------------------- */
 .work {
   max-width: var(--max);
@@ -270,7 +270,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* ---------------------------------------------------------
-   Proof Sheet
+   proof Sheet
 --------------------------------------------------------- */
 .proofsheet {
   max-width: var(--max);
@@ -328,7 +328,7 @@ img { max-width: 100%; display: block; }
 .arrow:hover { border-color: var(--accent); color: var(--accent); }
 
 /* ---------------------------------------------------------
-   Footer
+   footer
 --------------------------------------------------------- */
 .site-footer {
   position: relative;
@@ -360,7 +360,7 @@ img { max-width: 100%; display: block; }
 .footer-note { color: var(--muted); font-size: 0.85rem; }
 
 /* ---------------------------------------------------------
-   Modal (Proof Sheet popup)
+   modal proof sheet popup
 --------------------------------------------------------- */
 .modal {
   position: fixed;
