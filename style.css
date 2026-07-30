@@ -63,11 +63,16 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px solid var(--line);
 }
 
-.wordmark {
+.wordmark-logo {
+  display: block;
+  height: 28px;
+  width: auto;
+}
+.wordmark-fallback {
+  display: none;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.1rem;
-  text-decoration: none;
   letter-spacing: 0.04em;
 }
 
