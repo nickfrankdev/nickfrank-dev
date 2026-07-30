@@ -1,1 +1,182 @@
-<h1> nickfrank.dev - alpha </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nick Frank — Game Design / Web / Graphic Design</title>
+<meta name="description" content="Portfolio of Nick Frank — game design, web development, and graphic design.">
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=space-mono:400,700|dm-sans:400,500,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Reusable registration-mark motif, referenced via <use> -->
+<svg width="0" height="0" style="position:absolute">
+  <symbol id="regmark" viewBox="0 0 40 40">
+    <circle cx="20" cy="20" r="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="20" y1="0" x2="20" y2="40" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="0" y1="20" x2="40" y2="20" stroke="currentColor" stroke-width="1.5"/>
+  </symbol>
+</svg>
+
+<header class="site-header">
+  <a class="wordmark" href="#top">NF</a>
+  <nav class="site-nav">
+    <a href="#work">Work</a>
+    <a href="#proofsheet">Proof Sheet</a>
+    <a href="#contact">Contact</a>
+    <!-- EDIT: point this at your actual resume PDF once it's in the repo -->
+    <a href="resume.pdf" class="nav-resume">Résumé</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <svg class="regmark regmark--hero" aria-hidden="true"><use href="#regmark"/></svg>
+    <p class="eyebrow">Game Design &nbsp;/&nbsp; Web Development &nbsp;/&nbsp; Graphic Design</p>
+    <h1>Nick Frank</h1>
+    <!-- EDIT: adjust to taste — keep it plain and specific, not sales copy -->
+    <p class="hero-sub">I build finished things — games, sites, and printed work — and I'd rather show you than tell you.</p>
+    <div class="hero-links">
+      <a href="#work" class="btn btn--primary">See the work</a>
+      <a href="mailto:REPLACE_WITH_EMAIL" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <section id="work" class="work">
+    <h2 class="section-label"><span class="tick">＋</span> Selected Work</h2>
+
+    <!-- PLATE 01 — antimetafy.gg -->
+    <article class="plate">
+      <div class="plate-media">
+        <!-- EDIT: replace with a real screenshot, e.g. images/antimetafy-cover.jpg -->
+        <div class="media-placeholder">Screenshot — antimetafy.gg</div>
+      </div>
+      <div class="plate-body">
+        <span class="plate-number">Plate 01</span>
+        <h3>antimetafy.gg</h3>
+        <p class="plate-tags">Web · Custom Engine · RSS / Discord Infra</p>
+        <p class="plate-desc">
+          A Pokémon TCG hobby site built from the ground up: a custom tier-list
+          rendering engine, an RSS pipeline with Discord embed support, and an
+          image-processing pipeline — all running under a hand-built dark UI system.
+        </p>
+        <a href="https://antimetafy.gg" class="plate-link" target="_blank" rel="noopener">View site →</a>
+      </div>
+    </article>
+
+    <!-- PLATE 02 — Unity / C# -->
+    <article class="plate plate--reverse">
+      <div class="plate-media">
+        <!-- EDIT: replace with a gameplay screenshot or GIF -->
+        <div class="media-placeholder">Screenshot / GIF — [game title]</div>
+      </div>
+      <div class="plate-body">
+        <span class="plate-number">Plate 02</span>
+        <!-- EDIT: swap in your actual project title, e.g. "Recoil" -->
+        <h3>[Game Title]</h3>
+        <p class="plate-tags">Game Dev · Unity · C#</p>
+        <p class="plate-desc">
+          <!-- EDIT: 2–3 sentences — what the mechanic is, what you built, what shipped -->
+          Built in Unity as part of my Digital Game Design thesis work at LIU Post.
+          One of four shipped titles playable on itch.io.
+        </p>
+        <a href="https://pib.itch.io" class="plate-link" target="_blank" rel="noopener">Play on itch.io →</a>
+      </div>
+    </article>
+
+    <!-- PLATE 03 — Twitch overlay -->
+    <article class="plate">
+      <div class="plate-media">
+        <!-- EDIT: replace with the actual overlay/banner set -->
+        <div class="media-placeholder">Overlay / Banner Set</div>
+      </div>
+      <div class="plate-body">
+        <span class="plate-number">Plate 03</span>
+        <h3>Twitch Stream Package</h3>
+        <p class="plate-tags">Graphic Design · Broadcast</p>
+        <p class="plate-desc">
+          A full overlay and banner set designed for a friend's live stream —
+          in active use, not a mockup.
+        </p>
+      </div>
+    </article>
+
+    <!-- PLATE 04 — Food Quartz -->
+    <article class="plate plate--reverse">
+      <div class="plate-media">
+        <!-- EDIT: replace with product photography -->
+        <div class="media-placeholder">Product Photography — Food Quartz</div>
+      </div>
+      <div class="plate-body">
+        <span class="plate-number">Plate 04</span>
+        <h3>Food Quartz</h3>
+        <p class="plate-tags">Branding · Packaging</p>
+        <p class="plate-desc">
+          A full brand identity — logo, label system, and packaging — designed
+          and applied to a physical product for a college branding project.
+        </p>
+      </div>
+    </article>
+  </section>
+
+  <section id="proofsheet" class="proofsheet">
+    <h2 class="section-label"><span class="tick">＋</span> Proof Sheet</h2>
+    <p class="proofsheet-sub">Smaller pieces — click any frame to open it.</p>
+
+    <!--
+      EDIT: each .frame is one image. Duplicate/remove as needed.
+      Set data-caption to a single sentence and data-img to the real file.
+    -->
+    <div class="proofsheet-strip" id="proofsheetStrip">
+      <button class="frame" data-img="images/proof-01.jpg" data-caption="Replace with a one-sentence caption.">
+        <img src="images/proof-01.jpg" alt="" loading="lazy">
+      </button>
+      <button class="frame" data-img="images/proof-02.jpg" data-caption="Replace with a one-sentence caption.">
+        <img src="images/proof-02.jpg" alt="" loading="lazy">
+      </button>
+      <button class="frame" data-img="images/proof-03.jpg" data-caption="Replace with a one-sentence caption.">
+        <img src="images/proof-03.jpg" alt="" loading="lazy">
+      </button>
+      <button class="frame" data-img="images/proof-04.jpg" data-caption="Replace with a one-sentence caption.">
+        <img src="images/proof-04.jpg" alt="" loading="lazy">
+      </button>
+      <button class="frame" data-img="images/proof-05.jpg" data-caption="Replace with a one-sentence caption.">
+        <img src="images/proof-05.jpg" alt="" loading="lazy">
+      </button>
+    </div>
+    <div class="proofsheet-controls">
+      <button class="arrow" id="proofPrev" aria-label="Scroll left">←</button>
+      <button class="arrow" id="proofNext" aria-label="Scroll right">→</button>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="site-footer">
+  <svg class="regmark regmark--footer" aria-hidden="true"><use href="#regmark"/></svg>
+  <h2>Let's talk.</h2>
+  <p><a href="mailto:REPLACE_WITH_EMAIL">REPLACE_WITH_EMAIL</a></p>
+  <p class="footer-links">
+    <!-- EDIT: fill in or remove -->
+    <a href="https://github.com/REPLACE" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://pib.itch.io" target="_blank" rel="noopener">itch.io</a>
+    <a href="resume.pdf">Résumé</a>
+  </p>
+  <p class="footer-note">Ronkonkoma, NY</p>
+</footer>
+
+<!-- Popup modal for Proof Sheet -->
+<div class="modal" id="modal" hidden>
+  <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+  <button class="modal-nav modal-nav--prev" id="modalPrev" aria-label="Previous">←</button>
+  <img class="modal-img" id="modalImg" src="" alt="">
+  <button class="modal-nav modal-nav--next" id="modalNext" aria-label="Next">→</button>
+  <p class="modal-caption" id="modalCaption"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
