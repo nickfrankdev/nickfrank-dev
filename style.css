@@ -295,7 +295,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* ---------------------------------------------------------
-   Other Work Sheet
+   Other Work Sheet (DEACTIVATED)
 --------------------------------------------------------- */
 .oworksheet {
   max-width: var(--max);
@@ -351,6 +351,13 @@ img { max-width: 100%; display: block; }
   cursor: pointer;
 }
 .arrow:hover { border-color: var(--accent); color: var(--accent); }
+
+/* THIS DEACTIVATES THE ARROWS - Remove to reactivate*/
+.oworksheet-controls {
+  display: none;
+}
+
+
 
 /* ---------------------------------------------------------
    footer
