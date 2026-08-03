@@ -289,6 +289,9 @@ img { max-width: 100%; display: block; }
   .site-nav a {
     white-space: nowrap;
   }
+  .eyebrow {
+     max-width: calc(100% - 88px);
+  }
 }
 
 /* ---------------------------------------------------------
