@@ -2,8 +2,8 @@
 // Proof Sheet: scroll arrows
 // ---------------------------------------------------------
 const strip = document.getElementById('oworksheetStrip');
-const prevBtn = document.getElementById('oworkPrev');
-const nextBtn = document.getElementById('oworkNext');
+const prevBtn = document.getElementById('oworksheetPrev');
+const nextBtn = document.getElementById('oworksheetNext');
 
 function scrollStrip(dir) {
   if (!strip) return;
